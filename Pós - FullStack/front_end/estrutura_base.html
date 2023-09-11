@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <title>Trackfy</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="O objetivo desse site é conectar
+    pessoas interessadas em passeios e guias experientes">
+    <meta name="author" content="Érico C. Studart">
+    <meta name="keywords" content="trilhas, rotas, passeios">
+    <link rel="stylesheet" href="estrutura_base.css">
+
+</head>
+
+<body>
+
+    <h1>
+        TrackFy
+    </h1>
+
+    <p class="description">
+        <b>The easiest way to connect guides and people. 
+            Find tracks and guides <i>anywhere</i> you go.</b>
+    </p>
+
+
+        <section class="newClient">
+            <p>Register as client bellow:</p>
+            <input type="text" id="newClientName" placeholder="name">
+            <input type="text" id="newClientTelephone" placeholder="telephone">
+            <input type="text" id="newClientEmail" placeholder="email">
+            <span onclick="newClient()" class="addBtn">Adicionar</span>
+        </section>
+        
+        <section>
+            <p>Register as guide bellow:</p>
+            <input type="text" id="newGuideName" placeholder="name">
+            <input type="text" id="newGuideTelephone" placeholder="telephone">
+            <input type="text" id="newGuideEmail" placeholder="email">
+            <input type="text" id="newGuideTransport" placeholder="transport">
+        </section>
+
+    <div class="client">
+        <section>
+            <p>Register a new place for tracks:</p>
+            <input type="text" id="newPlaceName" placeholder="name">
+            <input type="text" id="newPlaceType" placeholder="type">
+        </section>
+           
+        <section>
+            <p>Add comments for tracks:</p>
+            <input type="text" id="newTrackId" placeholder="track.id">
+            <input type="text" id="newTrackComment" placeholder="comment">
+        </section>
+    
+    </div>
+
+    <div class="client">   
+        <section sty>
+            <p>Search for a specific track</p>
+            <tr>
+                <th><b>Track</b></th>
+            </tr>
+        </section>
+    </div>
+
+    <script src="estrutura_base.js"></script>
+</body>
+
+</html>
