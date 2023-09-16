@@ -140,7 +140,6 @@ h2{
 }
 
 .getTrack{
-    border-style: solid;
     height: auto;
     width: 40%;
     margin: auto;
@@ -150,7 +149,6 @@ h2{
 }
 
 .BtnTrackSearch{
-    border-style: solid;
     height: 20px;
 }
 
