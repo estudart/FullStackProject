@@ -1,0 +1,244 @@
+body{
+    background-image: url(images/hiking_2.avif);
+}
+
+.info-1{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div{
+    padding-bottom: 10px;
+}
+
+.title{
+    background-color: rgb(137, 194, 137);
+    text-align: center;
+    width: 120px;
+    color:white;
+    font-family: Arial;
+    font-size: 28px;
+    border-style: solid;
+    border-color: rgb(137, 194, 137);
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 48px;
+    font-style: italic;
+}
+
+.description{
+    color: rgb(31, 133, 111);
+    font-size: 20;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.client{
+    color: gray;
+    font-size: 18;
+    text-align: center;
+}
+
+.newClient {
+    color: gray;
+    font-size: 18;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#newClientName{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newClientEmail{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newClientTelephone{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+.newGuide {
+    color: gray;
+    font-size: 18;
+    display: inline-block;
+}
+
+#newGuideName{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newGuideEmail{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newGuideTelephone{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newGuideTransport{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+.newPlace {
+    color: gray;
+    font-size: 18;
+    display: inline-block;
+    margin-left: 5%;
+}
+
+#newPlaceName{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newPlaceType{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+.newComment {
+    color: gray;
+    font-size: 18;
+    display: inline-block;
+}
+
+#newClientNameComment{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newText{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+#newTrackIdComment{
+    color: gray;
+    font-size: 18;
+    text-align: center
+}
+
+.getTrack{
+    border-style: solid;
+    height: auto;
+    width: 40%;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.BtnTrackSearch{
+    border-style: solid;
+    height: 20px;
+}
+
+table,
+th,
+td {
+    width: 50%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+    position: relative;
+    padding: 2px 2px 2px 2px;
+    font-size: 10px;
+    transition: 0.2s;
+    text-align: center;
+}
+
+table{
+    background-color: white;
+    width: 50%;
+}
+
+tr:nth-child(odd){
+    background-color: #eee;
+}
+
+th:nth-child(1){
+    width: 80%;
+}
+
+tr:hover {
+    background: rgb(200, 199, 199);
+}
+
+.addBtn {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+    padding: 2px;
+    background-color: rgb(22, 173, 148);
+}
+
+.addBtnGuide {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+    padding: 2px;
+    background-color: rgb(22, 173, 148);
+}
+
+.addBtnPlace {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+    padding: 2px;
+    background-color: rgb(22, 173, 148);
+}
+
+.addBtnComment {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+    padding: 2px;
+    background-color: rgb(22, 173, 148);
+}
+
+.BtnTrackSearch {
+    color: black;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 2px;
+    padding: 2px;
+    background-color: rgb(22, 173, 148);
+}
+
+section{
+    margin: 5px;
+    display: inline-block;
+    width: 40%;
+    text-align: center;
+}
+
+input{
+    margin: 5px;
+    display: inline-block;
+    text-align: normal;
+}
